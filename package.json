@@ -1,0 +1,15 @@
+{
+  "name": "cli-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/src/tests/**/*.test.js"]
+  }
+}
